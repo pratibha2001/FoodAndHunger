@@ -1,0 +1,74 @@
+api/auth/donor/login
+api/auth/donor/signup
+api/auth/donor/registration
+
+// profile alter
+api/auth/donor/top_10_donors
+api/auth/donor/edit/[id]
+api/auth/donor/get/[id]
+
+api/auth/donor/edit/[id]
+api/donate/add_donation
+api/donate/edit_donation
+api/donate/delete_donation
+api/donate/get_all_donations
+api/donate/get_donation/{id}
+
+donation{
+	title
+	description
+	photo
+	location
+	date time
+	donor
+}
+
+donor {
+	user_donor
+	name
+	age
+	address
+	`organization
+	pan
+	aadhaar
+	phone
+	email
+	organization certificate
+	photo
+	signature
+}
+
+user {
+	username
+	email id
+	password
+}
+
+models:
+    user_donor
+    	signup
+    	login
+    user_recipient
+    	signup
+    	login
+    donor
+    	api/donor/add_donor
+    	api/donor/get_donor
+    	api/donor/edit_donor
+    	api/donor/delete_donor
+    	api/donor/get_all_donors
+
+    donation
+    	api/donation/add_donation
+    	api/donation/get_donation
+    	api/donation/edit_donation
+    	api/donation/delete_donation
+    	api/donation/donor_donations/[donor_id]
+
+    donor_for_verification (after verification they added to donors table, and removed from this table)
+    	api/verification/register
+    	api/verification/edit/[id]
+    	api/verification/get/[id]
+    	api/verification/get_all_pending_verifications
+    	api/verification/verified
+    	api/verification/revoke/[id]
