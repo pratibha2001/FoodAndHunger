@@ -102,23 +102,4 @@ A Postman collection is included in the repository to help you test the API endp
 - File: `backend/foodandhunger.postman_collection.json` (or check root directory)
 - Import this file into [Postman](https://www.postman.com/) to see all available endpoints and example requests.
 
-## Contributing
-
-We welcome contributions! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
-
-1.  **Fork** the repository.
-2.  Create a new **branch** for your feature or bug fix:
-    ```bash
-    git checkout -b feature/amazing-feature
-    ```
-3.  **Commit** your changes:
-    ```bash
-    git commit -m "Add some amazing feature"
-    ```
-4.  **Push** to the branch:
-    ```bash
-    git push origin feature/amazing-feature
-    ```
-5.  Open a **Pull Request**.
-
 
